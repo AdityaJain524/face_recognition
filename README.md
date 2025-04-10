@@ -16,6 +16,7 @@ NumPy
 pickle
 
 📁 Project Structure
+```bash
 face_recognition-main/
 │
 ├── dataset/                # Stores images of known individuals
@@ -26,7 +27,7 @@ face_recognition-main/
 ├── recognize_video.py      # Script to recognize faces in real-time video
 ├── recognize.py            # Script for image-based recognition
 └── requirements.txt        # Python dependencies
-
+```
 ✅ How to Use
 Install dependencies:
 ```bash

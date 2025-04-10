@@ -1,7 +1,3 @@
-Here’s a clean and well-formatted version of your project `README.md` for GitHub:
-
----
-
 # 👤 Face Recognition System using Machine Learning
 
 This project is a **real-time face recognition system** built using **Python**, **OpenCV**, and machine learning techniques. It allows users to detect and recognize faces through live video streams and can be used for applications like **attendance systems**, **security monitoring**, and more.
@@ -92,5 +88,3 @@ Pull requests are welcome!
 For major changes, please open an issue first to discuss what you’d like to modify.
 
 ---
-
-Let me know if you want a badge, logo, or license section added too!

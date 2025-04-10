@@ -3,30 +3,19 @@ This project is a real-time face recognition system built using Python, OpenCV, 
 
 🚀 Features
 Real-time face detection using OpenCV
-
 Face recognition from live video feed
-
 Add and manage known faces dataset
-
 Face encoding and matching
-
 User-friendly structure for training and recognition
 
 🛠️ Technologies Used
 Python
-
 OpenCV
-
 face_recognition (dlib-based)
-
 NumPy
-
 pickle
 
 📁 Project Structure
-bash
-Copy
-Edit
 face_recognition-main/
 │
 ├── dataset/                # Stores images of known individuals
@@ -37,46 +26,33 @@ face_recognition-main/
 ├── recognize_video.py      # Script to recognize faces in real-time video
 ├── recognize.py            # Script for image-based recognition
 └── requirements.txt        # Python dependencies
+
 ✅ How to Use
 Install dependencies:
-
-bash
-Copy
-Edit
+```bash
 pip install -r requirements.txt
+```
 Collect face data:
-
 Run the following command and enter names to label the face images:
-
-bash
-Copy
-Edit
+```bash
 python detect_faces.py
+```
 Train the model:
-
 This will generate face encodings and save them for recognition:
-
-bash
-Copy
-Edit
+```bash
 python train_model.py
+```
 Recognize faces via webcam (video feed):
-
-bash
-Copy
-Edit
+```bash
 python recognize_video.py
+```
 Recognize faces in static images (optional):
-
-bash
-Copy
-Edit
+```bash
 python recognize.py
+```
 💡 Notes
 Ensure your webcam is working for live recognition.
-
 Store clear, front-facing images for best results during face encoding.
-
 You can add more individuals to the dataset/ folder anytime and retrain the model.
 
 📬 Contribution
